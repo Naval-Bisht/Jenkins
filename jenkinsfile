@@ -53,7 +53,7 @@ pipeline {
         }
         failure {
             // This block executes if the pipeline fails
-            echo ' Deployement failed!'
+            echo ' Deployement failed second time'
             // Add any failure actions or notifications here
         }
     }
