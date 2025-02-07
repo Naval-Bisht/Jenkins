@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Git') {
             steps {
-                git 'https://github.com/Naval-Bisht/Jenkins.git'
+                git branch: 'main', url: 'https://github.com/Naval-Bisht/Jenkins.git'
             }
         }
         stage('Build Code') {
